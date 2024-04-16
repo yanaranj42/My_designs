@@ -1,0 +1,4 @@
+verde-claro: #A7C957 (nav-bar, resumen, footer, derecha)
+verde-fuerte: #366D45 (img-slider)
+fondo y letras: #BC4749
+claro: #F2E8CF (nav-options,figcaption, galería, mapa)

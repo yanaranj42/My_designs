@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Coffee Farm</title>
+    <style>
+        /* CAMBIAR LOS COLORES!!! */
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #BC4749;
+            color:  #F2E8CF;
+        }
+        h1,p{
+            margin: 1em auto;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            font-weight: lighter;
+        }
+        h1{
+            margin-top: 80px;
+        }
+        #contact-form{
+            max-width: 500px;
+            min-width: 250px;
+            background-color: #537188;
+            padding: 30px;
+            margin: auto;
+            /* align-items: center; */
+        }
+        #contact-form fieldset{
+            border: none;
+        }
+        .controls{
+            width: 100%;
+            border: 1px solid #8294C4;
+            margin-bottom: 15px;
+            padding: 11px 10px;
+            background: #87CBB9;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        #submit{
+            width: 50%;
+            height: 40px;
+            background: #569DAA;
+            border: none;
+            color: #E5F9DB;
+            margin-bottom: 15px;
+        }
+        #submit:hover{
+            background: #654E92 ;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contact withs us!</h1>
+    <p><i> We can help you in anything you need. Write bellow what you looking for.</i></p>
+     <form id="contact-form">
+        <fieldset>
+            <label id="label-name"><input class="controls" type="text" placeholder="Name" required></label>
+            <label id="label-email"><input class="controls" type="email" placeholder="Email Adress" required></label>
+            <label id="label-country"><input class="controls" type="text" placeholder="Country"></label>
+            <label for="">
+                <textarea class="controls" cols="30" rows="10" placeholder="Message"></textarea>
+            </label>
+        </fieldset>
+       <p><a href="index.html"></a><input id="submit" type="submit" value="Submit"></a></p>
+    </form>
+    
+</body>
+</html>
